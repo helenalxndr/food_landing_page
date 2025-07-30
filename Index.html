@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lele Crispy - Gurihnya Bikin Nagih!</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>    
+  .hero {
+      background: url('image/1000476438-2.png') no-repeat center center/cover;
+      height: 600px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+      padding: 20px;
+      color: black;
+    }</style>
+</head>
+<body>
+
+<header id="mainHeader" class="sticky-header">
+  <div class="logo-title">
+    <a href="#mainNav1"><img src="image/yayasan logo.jpg" alt="Logo YPP 554" /></a>
+    <h2>Lele Crispy YPP 554</h2>
+  </div>
+  <button class="menu-toggle" onclick="toggleMenu()">
+    <img src="image/Hamburger_icon.svg" alt="Menu" />
+  </button>
+  <nav id="mainNav">
+    <a href="#mainNav1">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<section id="mainNav1" class="hero">
+  <div class="hero-welcome">Selamat datang di situs resmi Lele Crispy YPP 554</div>
+</section>
+
+<section class="section" id="menu">
+    <div class="container">
+      <h2>Menu Kami</h2>
+      <div class="tabs">
+        <button class="tab-button active" data-target="makanan">Makanan</button>
+        <button class="tab-button" data-target="minuman">Minuman</button>
+        <button class="tab-button" data-target="frozen">Frozen Food</button>
+      </div>
+      <div class="tab-content active" id="makanan">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="image/Panas Lele crispi sambal geprek (1).jpg" alt="Lele Crispy Sambel Geprek" />
+            <h4>Lele Crispy Sambal Geprek</h4>
+            <p>Rp 15.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/rice bowl pop crispi hot lava mayo.jpg" alt="Rice Bowl Pop Crispy Hot Lava Mayo" />
+            <h4>Rice Bowl Pop Crispy Hot Lava Mayoh</h4>
+            <p>Rp 17.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/rice bowl pop crispy sambal geprek (1).jpg" alt="Rice Bowl Pop Crispy Sambal Geprek" />
+            <h4>Rice Bowl Pop Crispy Sambal Geprek</h4>
+            <p>Rp 17.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/rice bowl pop crispy saus mentai 2.jpg" alt="Rice Bowl Pop Crispy Saus Mentai" />
+            <h4>Rice Bowl Pop Crispy Saus Mentai</h4>
+            <p>Rp 17.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/rice bowl pop crispy teriyaki.jpg" alt="Rice Bowl Pop Crispy Teriyaki" />
+            <h4>Rice Bowl Pop Crispy Teriyaki</h4>
+            <p>Rp 17.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/nori rice ball pop crispy (3).jpg" alt="Nori Ball Pop Crispy" />
+            <h4>Nori Ball Pop Crispy</h4>
+            <p>Rp 17.000</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="minuman">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="image/minuman1.jpg" alt="Es Teh Manis" />
+            <h4>Es Teh Manis</h4>
+            <p>Rp 5.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/minuman2.jpg" alt="Es Jeruk" />
+            <h4>Es Jeruk</h4>
+            <p>Rp 6.000</p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-content" id="frozen">
+        <div class="menu-grid">
+          <div class="menu-item">
+            <img src="image/lele marinasi.png" alt="Lele Marinasi Frozen 500gr" />
+            <h4>Lele Frozen 500gr</h4>
+            <p>Rp 20.000</p>
+          </div>
+          <div class="menu-item">
+            <img src="image/popfrozen.png" alt="Paket Lele Pop Frozen" />
+            <h4>Paket Lele Pop Frozen</h4>
+            <p>Rp 25.000</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<a class="cta-wa" href="https://wa.me/6285893314868?text=Halo%20saya%20mau%20pesan%21%21%0A%0ANama%20Lengkap%3A%0AAlamat%20Lengkap%3A%0ANomor%20Telepon%3A%0ANama%20Produk%3A%0AJumlah%3A%0AMetode%20Pembayaran%3A%0ACatatan%3A%0A%0A%0ATerima%20kasih%20" target="_blank">Pesan Sekarang via WhatsApp</a>
+</section>
+
+
+<section id="about" class="about">
+  <img src="image/yayasan logo.jpg" alt="Tentang Lele Crispy" />
+  <div class="about-text">
+    <h3>Tentang Kami</h3>
+    <p>
+      Lele Crispy YPP 554 adalah usaha kuliner yang digagas oleh Yayasan Pewaris Peradaban 554 dengan tujuan memberdayakan masyarakat melalui UMKM makanan. Kami menyajikan menu lele goreng krispi dengan kualitas tinggi, harga terjangkau, dan pelayanan terbaik.
+    </p>
+  </div>
+</section>
+
+<section class="why-us">
+  <h2>Mengapa Memilih Kami?</h2>
+  <div class="benefits">
+    <div class="benefit">
+      <img src="image/lelecrispy.jpg" alt="Harga Terjangkau">
+      <h4>Harga Terjangkau</h4>
+      <p>Pas di kantong, cocok untuk semua kalangan.</p>
+    </div>
+    <div class="benefit">
+      <img src="image/lelecrispy.jpg" alt="Rasa Terbukti">
+      <h4>Rasa Terbukti</h4>
+      <p>Resep rahasia dengan bumbu turun-temurun khas Indonesia.</p>
+    </div>
+    <div class="benefit">
+      <img src="image/yayasan logo.jpg" alt="Dukungan Yayasan">
+      <h4>Dukungan Yayasan</h4>
+      <p>Dibina langsung oleh YPP 554 untuk pertumbuhan ekonomi mandiri.</p>
+    </div>
+  </div>
+</section>
+
+<footer id="kontak">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <a href="#mainNav1"><img src="image/yayasan logo.jpg" alt="Logo YPP 554"></a>
+      <p>Lele Crispy YPP 554</p>
+      <a href="#"><img src="image/Facebook.svg" alt="Facebook"></a>
+      <a href="#"><img src="image/Instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="image/WhatsApp.svg" alt="WhatsApp"></a>
+    </div>
+    <div class="footer-nav">
+      <h4>Menu</h4>
+      <a href="#mainNav1">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">Tentang</a>
+      <a href="#kontak">Kontak</a>
+    </div>
+    <div class="footer-map">
+      <iframe src="https://www.google.com/maps/embed?pb=..." allowfullscreen="" loading="lazy"></iframe>
+      <div class="footer-location">
+        <h4>Lokasi Kami</h4>
+        <p>Jl. Contoh No. 123, Kota Bogor</p>
+      </div>
+    </div>
+  </div>
+  <p style="margin-top: 20px">&copy; 2025 Lele Crispy YPP 554. Semua Hak Dilindungi.</p>
+</footer>
+
+<script src="js/script.js">
+</script>
+
+</body>
+</html>
